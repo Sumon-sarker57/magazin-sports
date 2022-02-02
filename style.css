@@ -1,0 +1,434 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.body{
+	display: flex;
+	font-family: 'Spartan', sans-serif;
+}
+/* Header Section */
+.headar-colors{
+	background-color: #1f2630;
+}
+#home-section{
+	background-image: url('img/index2.png');
+	background-position: top center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 750px;
+	color: #fff;
+}
+
+#contact-section{
+	background-image: url('img/index19.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
+	height: 260px;
+}
+
+#standing-section{
+	background-image: url('img/index9.png');
+	background-size: cover;
+	background-attachment: scroll;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
+#category-section{
+	background-image: url('img/index51.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-attachment: scroll;
+	min-height: 720px;
+	color: #fff;
+}
+
+.sffcolor{
+	border-bottom: 1px solid #fff;
+}
+/* video section */
+
+.videoweight h2{
+	font-size: 36px;
+	font-weight: 700;
+	line-height: 47px;
+}
+.LATEST h2{
+	font-size: 40px;
+	font-weight: 700;
+}
+
+.feature-img{
+    position:relative;
+    margin: auto;
+    width: 100%;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.play-btn{
+	position:absolute;
+	width:60px;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	cursor: pointer;
+}
+.transform-style{
+	transform: scale(1.0);
+	transition: .45s;
+}
+.transform-style:hover{
+    transform: scale(1.1);
+}
+.overlay-text{
+	position: absolute;
+	left: 30px;
+	top: 150px;
+	transform: translate();
+}
+.overlay-short{
+	position: absolute;
+	left: 10px;
+	top: 90px;
+	transform: translate();
+}
+.maiores{
+	font-size: 22px;
+	font-weight: 400;
+	line-height: 26px;
+}
+.maiores:hover{
+	color: red;
+}
+.text-color:hover{
+	color: red;
+}
+/* Swimming Section */
+#basboll-section{
+	background-image: url('img/banner1.jpeg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-attachment: scroll;
+	min-height: 620px;
+	color: #fff;
+}
+.text-font{
+	font-size: 35px;
+	line-height: 42px;
+	font-weight: 700;
+	margin-bottom: 20px;
+	margin-top: 25px;
+}
+.text-font:hover{
+    color: #c12c2f;
+}
+.aliqua{
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: 400;
+}
+
+/* Latest Post */
+.usoama{
+	transform: scale(1.0);
+	transition: .45s;
+}
+.usoama:hover{
+   transform: scale(1.1);
+}
+.veniam{
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 26px;
+}
+.veniam:hover{
+	color: #c12c2f;
+}
+.theme{
+	font-size: 13px;
+	line-height: 20px;
+	font-weight: 400;
+	color: #000000;
+}
+/* Editors section */
+.mypicks{
+	font-size: 40px;
+	line-height: 52px;
+	font-weight: 700;
+	margin-bottom: 20px;
+	text-align: left;
+}
+.image-box{
+	display: flex;
+	margin: 20px 0;
+	overflow: hidden;
+	width: 85%;
+	align-items:center;
+	margin: 0 10px;
+}
+.minim{
+	position: relative;
+
+}
+.image-box img{
+	width: 150px;
+}
+.minim{
+	align-self: center;
+}
+.ipsum-dolor a{
+    text-decoration: none;
+    color: #333;
+}
+.ipsum-dolor:hover a{
+	color: red;
+}
+.ipsum-dolor{
+	font-size: 16px;
+	line-height: 21px;
+	font-weight: 700;
+}
+.yivesites{
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 20px;
+}
+.consectetur a{
+    text-decoration: none;
+    color: #333;
+}
+.consectetur:hover a{
+	color: red;
+}
+.consectetur{
+	font-size: 18px;
+    line-height: 23px;
+    font-weight: 500;
+    margin-top: 15px;
+}
+.dolor-sit{
+    position:relative;
+    margin: auto;
+    width: 100%;
+    overflow: hidden;
+}
+.badge-red{
+    position: absolute;
+    top: ;
+    left: 35px;
+    right: ;
+    bottom: 0;
+}
+.badge{
+	background-color: red;
+	color: #fff;
+	padding: 5px 10px;
+}
+/* Index Section */
+
+.mollit{
+    font-size: 18px;
+	line-height: 30px;
+	color: #666666;
+	font-weight: 400;
+}
+.aliquip{
+	font-size: 24px;
+	line-height: 30px;
+	color: #333;
+	font-weight: bold;
+}
+.irure{
+	font-size: 36px;
+	font-weight: bold;
+	line-height: 48px;
+	color: #c12c2f;
+}
+.relatedd{
+	font-size: 40px;
+	color: #101010;
+}
+.Adipisicing a{
+	text-decoration: none;
+	color: #666666;
+	font-size: 20px;
+	line-height: 24px;
+
+}
+.Adipisicing:hover a{
+	color: red;
+}
+
+/* Latest Section */
+.LATEST{
+	font-size: 24px;
+	line-height: 32px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+.incididunts{
+   position:relative;
+    margin: auto;
+    width: ;
+    overflow: hidden;
+}
+.tech{
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: ;
+}
+.SEPTEMBER{
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+.sfmar{
+	position:absolute;
+	left: 50%;
+	top: 70%;
+	transform: translate(-50%,-50%);
+	cursor: pointer;
+	color: #fff;
+}
+.sff-btn{
+	position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+.test-btn{
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	cursor: pointer;
+}
+.adipisi-cing{
+	font-size: 18px;
+	line-height: 26px;
+	font-weight: 500;
+}
+/* Category Section */
+#category-section{
+   position: relative;
+   width: 100%;
+   overflow: hidden;
+}
+.text-category{
+   position:absolute;
+	left: 50%;
+	top: 60%;
+	transform: translate(-50%,-50%);
+	cursor: pointer;
+	color: #fff;
+}
+
+.animad{
+	position: relative;
+	width: 100%;
+	overflow: hidden;
+}
+.animad-btn{
+	position: absolute;
+	left: 5px;
+	bottom: 0;
+	padding-bottom: 0;
+}
+/* Load Section */
+#load-section h2 {
+	font-size: 40px;
+	line-height: 48px;
+	font-weight: 500;
+	color: #551315;
+}
+#about-section{
+	margin-top: 140px;
+}
+#about-section h1{
+	font-size: 42px;
+	font-weight: ;
+	line-height: 48px;
+	color: #303030;
+}
+
+/* Standing-Section */
+.temporex{
+	margin-top: 120px;
+}
+.ssffcolor{
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 18px;
+  color: #fff;
+}
+.Eiusmod{
+  font-size: 18px;
+  line-height: 23px;
+  font-weight: 500;
+  color: #fff;
+}
+.john{
+  font-size: 11px;
+  line-height: 17px;
+  font-weight: 400;
+  color: #fff;
+}
+.ssffcolor:hover{
+  color: red;
+	cursor: pointer;
+}
+.Eiusmod:hover{
+	color: red;
+	cursor: pointer;
+}
+.john:hover{
+	color: red;
+	cursor: pointer;
+}
+.image-box{
+	margin: 0;
+	position: 0;
+}
+
+
+
+
+
+
+
+@media (max-width: 575px) {
+     .feature-img{
+        margin-top: 0;
+        margin-bottom: 0;
+     }
+     .sfalign{
+     	margin-top: 130px;
+     }
+}
+@media (min-width: 576px) {
+
+}
+@media (min-width: 768px) {
+
+}
+@media (min-width: 992px) {
+
+}
+@media (min-width: 1200px) {
+
+}
+
+
+
+
+
+
+
+
+
+
